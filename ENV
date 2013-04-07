@@ -1,4 +1,4 @@
 
-export PATH=$PATH:`pwd`/bin
-export SQL_PATH=`pwd`/bin
+export PATH=$PATH:`pwd`/shell_scripts
+export SQL_PATH=`pwd`/sql_scripts
 export ORACLE_SID=V1

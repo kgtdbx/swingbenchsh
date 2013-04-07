@@ -1,4 +1,11 @@
 
+NOTE:
+      For some reason the ./bin and ./sql directories were not
+      showing up in gitbhub
+      renamed them to ./shell_scripts and ./sql_scripts
+      
+
+to run
 source ENV
 
    $ . ENV

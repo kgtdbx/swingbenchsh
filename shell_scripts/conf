@@ -1,0 +1,14 @@
+
+
+CHARBENCH='/home/oracle/swingbench/bin/charbench'
+
+ls -l $CHARBENCH
+
+export IP="172.16.102.209"
+export SID="V1"
+
+
+DB="$IP:1521:$SID"
+
+export DB
+
