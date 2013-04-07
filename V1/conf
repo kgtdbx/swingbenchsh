@@ -1,0 +1,27 @@
+
+export IP="172.16.102.209"
+export SID="V1"
+
+CHARBENCH='/home/oracle/swingbench/bin/charbench'
+ls -l $CHARBENCH
+export CHARBENCH
+export ORACLE_SID=$SID
+export DB="$IP:1521:$SID"
+
+export LOOPS=${LOOPS:-1}
+
+#export COLD=${COLD:-0}
+#export DSS=${DSS:-0}
+#export WARM=${WARM:-0}
+
+export EVAL=${EVAL:-1}
+
+#USERS=${1:-0}
+#
+#if [ $USERS -ne 0 ] ; then
+#  echo "running one.sh $USERS"
+#  one.sh $USERS
+#fi
+#echo "running runswingbench.sh "
+#runswingbench.sh
+

@@ -1,0 +1,4 @@
+
+export PATH=$PATH:`pwd`/bin
+export SQL_PATH=`pwd`/bin
+export ORACLE_SID=SOE60G
