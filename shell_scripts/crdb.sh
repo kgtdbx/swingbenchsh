@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-# assumes and users /home/oradata
-# users ORACLE_HOME to create init.ora in $ORACLE_HOME/dbs
+# assumes /home/oradata
+# use ORACLE_HOME to create init.ora in $ORACLE_HOME/dbs
 
 
 echo "give ORACLE_SID:"
